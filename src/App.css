@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+}
+.container{
+  background: linear-gradient(white, #D3D8E8);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color: whitesmoke;
+  min-width: 350px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.title{
+  color: rgb(85, 88, 97);
+  text-align: center;
+  margin:8px 0px 40px 0px;
+}
+
+.name,
+.email,
+.password{
+  margin: 20px;
+  color: grey;
+  font-size: 16px;
+}
+.password {
+  margin-bottom: 40px;
+}
+.input {
+  height: 32px;
+  font-size: 15px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-bottom-style: 2px solid black;
+  margin-bottom:10px;
+}
+.error{
+color:red;
+}
+
+
+
+.Submit-button {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left:60px;
+  width: 310px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(143, 134, 134, 0.6);
+  border-radius: 10px;
+  color: white;
+  font-weight: 18px;
+  letter-spacing: 3px;
+  transition: background-color .4s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: background-color .4s ease-out;
+  -moz-transition: background-color .4s ease-out;
+  -ms-transition: background-color .4s ease-out;
+  -o-transition: background-color .4s ease-out;
+}
+
+.submit-button:hover {
+  color: rgba(107, 98, 98, 0.7);
+}
+
+.submit-button:focus {
+  outline: none;
+  background-color: rgba(0,0,0,.7);
+}
+
+
+button:active{
+transform: translateY(2px);
+}
+
+.form-success{
+  display:flex;
+  justify-content:center;
+  margin-top:250px;
+  min-width:370px;
+  color:pink;
+}
